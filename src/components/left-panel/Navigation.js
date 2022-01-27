@@ -1,16 +1,18 @@
+import "./Navigation.css";
 import NavigationItem from "./NavigationItem";
 
-
 function Navigation() {
-  return <div>
+  return (
+    <div>
       <ul>
-          <NavigationItem text="Dashboard"/>
-          <NavigationItem text="Lessons"/>
-          <NavigationItem text="Students"/>
-          <NavigationItem text="Messages"/>
-          <NavigationItem text="Grades"/>
+        <NavigationItem text="Dashboard" />
+        <NavigationItem text="Lessons" />
+        <NavigationItem text="Students" />
+        <NavigationItem text="Messages" />
+        <NavigationItem text="Grades" />
       </ul>
-  </div>;
+    </div>
+  );
 }
 
 export default Navigation;
