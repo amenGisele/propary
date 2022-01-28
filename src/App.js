@@ -1,5 +1,5 @@
 
-import Navigation from './components/left-panel/Navigation';
+import Navigation from './components/left-panel/Navigation/Navigation';
 
 function App() {
   return (

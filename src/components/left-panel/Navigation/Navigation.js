@@ -1,9 +1,11 @@
 import "./Navigation.css";
-import NavigationItem from "./NavigationItem";
+import NavigationItem from "../NavigationItem/NavigationItem";
+import UserProfile from "../UserProfile/UserProfile";
 
 function Navigation() {
   return (
-    <div>
+    <div className="left-panel">
+      <UserProfile />
       <ul>
         <NavigationItem text="Dashboard" />
         <NavigationItem text="Lessons" />
